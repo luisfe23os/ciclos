@@ -11,9 +11,12 @@ while opcion!=5:
     opcion=int(input("digita un numero"))
 
     if opcion==1:
-        print("opcion 1")
+        nombre=input("digite el nombre del producto")
+        bike.append(nombre)
+        print("se agrego el ojecto")
     elif opcion==2:
-        print("opcion2")
+        print(bike)
+
     elif opcion==3:
         print("opcion 3")
     elif opcion==4:
